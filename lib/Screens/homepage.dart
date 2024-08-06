@@ -32,7 +32,7 @@ class Homepage extends StatelessWidget {
           // padding: const EdgeInsets.all(16),
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.blue, Colors.lightBlueAccent],
+              colors: [Colors.blue, Color.fromARGB(255, 1, 11, 16)],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
