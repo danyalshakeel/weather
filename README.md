@@ -7,7 +7,7 @@ A beautifully designed Flutter Weather App that fetches real-time weather data u
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="assets/WeatherAPP.png" width="300" />
+  <img src="images/WeatherAPP.png" width="300" />
   
 </p>
 
