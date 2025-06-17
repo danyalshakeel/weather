@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:weather10/Screens/homepage.dart';
 import "package:provider/provider.dart";
@@ -21,8 +23,10 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Homepage(),
+        home: const WeatherPage(),
       ),
     );
   }
 }
+
+/// Reusable frosted-glass container

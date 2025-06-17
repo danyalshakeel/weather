@@ -7,6 +7,7 @@ class WeatherModel {
   String humidity;
   String windSpeed;
   String pressure;
+  String cityName;
   WeatherModel({
     required this.longitude,
     required this.latitude,
@@ -15,6 +16,7 @@ class WeatherModel {
     required this.humidity,
     required this.windSpeed,
     required this.pressure,
+    required this.cityName,
   });
 
   factory WeatherModel.fromJson(Map<String, dynamic> json) {
@@ -27,6 +29,7 @@ class WeatherModel {
       humidity: json['main']['humidity'].toString(),
       windSpeed: json['wind']['speed'].toString(),
       pressure: json['main']['pressure'].toString(),
+      cityName: json['name'] ?? 'Unknown City',
     );
   }
 }
