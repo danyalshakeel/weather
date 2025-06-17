@@ -1,16 +1,43 @@
-# weather10
+# 🌤️ WeatherApp
 
-A new Flutter project.
+A beautifully designed Flutter Weather App that fetches real-time weather data using the [OpenWeatherMap API](https://openweathermap.org/api) and manages state efficiently with the **Provider** package.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="assets/WeatherAPP.png" width="300" />
+  
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- 🔍 Search weather by city name  
+- ☁️ Real-time weather updates  
+- 📊 Displays temperature, humidity, wind speed, and pressure  
+- 🧊 Glassmorphism UI for modern design  
+- 🧩 State management using `Provider`  
+- 🌈 Beautiful gradient backgrounds
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter**  
+- **Provider (State Management)**  
+- **OpenWeatherMap API**  
+- **Dart**  
+- **Custom Glassmorphism Widgets**
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/WeatherApp.git
+cd WeatherApp
